@@ -37,8 +37,8 @@ text-align: right;
 
 }
 
-.logo > div{
+.logo > div {
 display: flex;
-justify-content: space-evenly;
-
+justify-content: flex-start;
+/* align-items: flex-start; */
 }
