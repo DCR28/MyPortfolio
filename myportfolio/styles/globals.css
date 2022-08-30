@@ -1,44 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
 
 body {
-background-color: #F9FFE3;
-color: #8D4E85;
-font-family: 'Gloria Hallelujah', cursive;}
+  background-color: #f9ffe3;
+  color: #8d4e85;
+  font-family: "Gloria Hallelujah", cursive;
+}
 
 nav {
-margin: 5px auto 20px;
-padding: 5px 0;
-display: flex;
-justify-content: space-evenly;
-align-items: flex-end;
+  margin: 5px auto 20px;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
 }
 
 h1 {
-font-weight: normal;
-font-size: 65px;
+  font-weight: normal;
+  font-size: 65px;
 }
 
 p {
-font-size: 18px;
-display: flex;
-justify-content: flex-start;
-position: relative;
-top: -25px;
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  top: -25px;
 }
 
 footer {
-display: flex;
-justify-content: flex-end;
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+}
 
+.content {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .logo > div {
-display: flex;
-justify-content: flex-start;
-/* align-items: flex-start; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: auto;
 }
